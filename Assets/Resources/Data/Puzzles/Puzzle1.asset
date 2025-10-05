@@ -13,30 +13,127 @@ MonoBehaviour:
   m_Name: Puzzle1
   m_EditorClassIdentifier: 
   timeinseconds: 0
-  Columns: 0
-  Rows: 0
+  Columns: 10
+  Rows: 10
   Board:
   - Size: 10
     Row:
-    - u
-    - t
-    - k
-    - a
-    - r
-    - s
-    - h
-    - ' '
-    - ' '
-    - ' '
+    - C
+    - H
+    - Y
+    - U
+    - H
+    - V
+    - I
+    - Q
+    - C
+    - N
   - Size: 10
     Row:
-    - p
-    - a
-    - r
-    - a
-    - m
-    - j
-    - e
-    - e
-    - t
-    - ' '
+    - O
+    - D
+    - K
+    - N
+    - R
+    - Q
+    - H
+    - A
+    - C
+    - U
+  - Size: 10
+    Row:
+    - H
+    - O
+    - E
+    - Q
+    - K
+    - E
+    - I
+    - Z
+    - H
+    - J
+  - Size: 10
+    Row:
+    - R
+    - T
+    - D
+    - C
+    - P
+    - F
+    - M
+    - K
+    - H
+    - F
+  - Size: 10
+    Row:
+    - J
+    - T
+    - P
+    - I
+    - H
+    - W
+    - R
+    - X
+    - F
+    - C
+  - Size: 10
+    Row:
+    - M
+    - Q
+    - N
+    - C
+    - I
+    - F
+    - D
+    - W
+    - X
+    - B
+  - Size: 10
+    Row:
+    - A
+    - P
+    - C
+    - P
+    - U
+    - W
+    - T
+    - Z
+    - L
+    - R
+  - Size: 10
+    Row:
+    - Y
+    - J
+    - J
+    - N
+    - M
+    - W
+    - M
+    - H
+    - E
+    - N
+  - Size: 10
+    Row:
+    - L
+    - L
+    - L
+    - Y
+    - S
+    - X
+    - F
+    - M
+    - R
+    - E
+  - Size: 10
+    Row:
+    - T
+    - S
+    - A
+    - V
+    - O
+    - V
+    - A
+    - E
+    - T
+    - I
+  SearchWords: []
