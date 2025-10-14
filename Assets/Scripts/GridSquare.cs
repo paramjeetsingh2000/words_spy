@@ -11,13 +11,67 @@ public int SquareIndex { get; set; }
     private AlphabetData.LetterData _correctLetterData;
 
     private SpriteRenderer _displayedImage;
+
+    private bool _selected;
+    private bool _clicked;
+    private int _index = -1;
+    private bool _correct;
+
+    public void SetIndex(int index)
+    {
+        _index = index;
+    }
+
+    public int GetIndex()
+        { return _index; }
     
     void Start()
     {
+        _selected = false;
+        _clicked = false;
+        _correct = false;
         _displayedImage = GetComponent<SpriteRenderer>();
     }
 
-  public void SetSprite(AlphabetData.LetterData normalLetterData, AlphabetData.LetterData selectedLetterData, AlphabetData.LetterData correctLetterData)
+    private void OnEnable()
+    {
+        GameEvents.OnEnableSquareSelection += OnEnableSquareSelection;
+        GameEvents.OnDisableSquareSelection += OnDisableSquareSelection;
+        GameEvents.OnSelectSquare += SelectSquare;
+
+    }
+
+    private void OnDisable()
+    {
+
+        GameEvents.OnEnableSquareSelection -= OnEnableSquareSelection;
+        GameEvents.OnDisableSquareSelection -= OnDisableSquareSelection;
+        GameEvents.OnSelectSquare -= SelectSquare;
+    }
+
+   public void OnEnableSquareSelection()
+    {
+        _clicked = true;
+        _selected = false ;
+    }
+
+    public void OnDisableSquareSelection()
+    {
+        _selected = false;
+        _clicked =false;
+        if (_correct == true)
+            _displayedImage.sprite = _correctLetterData.image;
+        else
+            _displayedImage.sprite = _normalLetterData.image;
+    }
+
+    private void SelectSquare(Vector3 position)
+    {
+        if (this.gameObject.transform.position == position)
+            _displayedImage.sprite = _selectedLetterData.image;
+    }
+
+    public void SetSprite(AlphabetData.LetterData normalLetterData, AlphabetData.LetterData selectedLetterData, AlphabetData.LetterData correctLetterData)
     {
         _selectedLetterData = selectedLetterData;
         _normalLetterData = normalLetterData;
@@ -25,5 +79,34 @@ public int SquareIndex { get; set; }
 
         GetComponent<SpriteRenderer>().sprite = _normalLetterData.image;
     }
-    
+
+    private void OnMouseDown()
+    {
+        OnEnableSquareSelection();
+        GameEvents.EnableSquareSelectionMethod();
+        CheckSquare();
+        _displayedImage.sprite = _selectedLetterData.image;
+
+    }
+
+    private void OnMouseEnter()
+    {
+        CheckSquare();
+    }
+
+    private void OnMouseUp()
+    {
+        GameEvents.ClearSelectionMethod();
+        GameEvents.DisableSquareSelectionMethod();
+    }
+
+    public void CheckSquare()
+    {
+        if (_selected == false && _clicked == true)
+        {
+            _selected = true;
+            GameEvents.CheckSquareMethod(_normalLetterData.letter, gameObject.transform.position, _index);
+        }
+    }
+
 }
