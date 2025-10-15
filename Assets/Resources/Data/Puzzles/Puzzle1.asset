@@ -13,128 +13,43 @@ MonoBehaviour:
   m_Name: Puzzle1
   m_EditorClassIdentifier: 
   timeinseconds: 0
-  Columns: 10
-  Rows: 10
+  Columns: 5
+  Rows: 5
   Board:
-  - Size: 10
+  - Size: 5
     Row:
-    - C
-    - R
-    - H
-    - A
-    - G
+    - F
     - E
-    - A
-    - S
-    - Y
-    - H
-  - Size: 10
-    Row:
-    - Y
-    - A
-    - U
-    - A
-    - J
-    - O
-    - L
-    - V
-    - U
-    - U
-  - Size: 10
-    Row:
-    - R
-    - J
-    - T
-    - G
-    - A
-    - U
-    - Y
-    - U
-    - D
-    - V
-  - Size: 10
-    Row:
-    - Y
-    - Q
-    - D
-    - T
-    - L
-    - W
-    - T
-    - G
-    - D
-    - S
-  - Size: 10
-    Row:
-    - T
-    - U
-    - Z
-    - X
-    - A
-    - Y
     - K
-    - G
-    - W
-    - S
-  - Size: 10
-    Row:
-    - I
-    - N
-    - M
-    - M
-    - Z
-    - L
-    - V
-    - P
-    - U
-    - A
-  - Size: 10
-    Row:
-    - T
-    - R
-    - H
-    - K
-    - Q
-    - M
-    - B
-    - Q
-    - A
-    - V
-  - Size: 10
-    Row:
-    - Q
-    - H
-    - Y
-    - Q
     - E
-    - B
-    - X
-    - N
-    - W
+    - U
+  - Size: 5
+    Row:
+    - Z
+    - Q
+    - L
+    - K
+    - M
+  - Size: 5
+    Row:
     - D
-  - Size: 10
-    Row:
-    - X
-    - N
-    - B
     - C
-    - S
-    - W
-    - P
+    - C
     - O
-    - T
-    - Z
-  - Size: 10
-    Row:
-    - V
     - N
-    - Z
-    - H
-    - I
-    - S
+  - Size: 5
+    Row:
+    - Y
+    - M
+    - D
+    - P
+    - V
+  - Size: 5
+    Row:
     - O
-    - T
-    - A
-    - G
+    - M
+    - V
+    - W
+    - I
   SearchWords:
   - Word: SUMIT
