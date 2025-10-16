@@ -18,133 +18,130 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - F
-    - C
-    - H
-    - F
-    - K
     - S
-    - B
+    - P
     - R
     - I
-    - F
-  - Size: 10
-    Row:
-    - C
     - N
-    - J
-    - H
-    - M
-    - W
     - G
-    - A
-    - D
-    - K
+    - S
+    - T
+    - W
+    - H
   - Size: 10
     Row:
+    - N
     - F
-    - M
+    - N
+    - R
+    - Q
+    - I
     - N
     - Z
-    - B
-    - Q
-    - Q
-    - V
-    - O
-    - R
-  - Size: 10
-    Row:
-    - A
+    - U
     - M
-    - H
-    - L
-    - J
-    - G
-    - O
-    - O
-    - Y
-    - J
   - Size: 10
     Row:
-    - K
+    - Y
+    - Y
+    - H
+    - H
+    - R
+    - Y
+    - A
+    - Q
+    - I
+    - T
+  - Size: 10
+    Row:
     - P
-    - G
+    - R
+    - L
+    - Q
+    - B
+    - Y
+    - K
+    - I
+    - N
+    - T
+  - Size: 10
+    Row:
+    - M
+    - I
+    - J
+    - P
+    - X
+    - A
     - E
-    - C
-    - U
-    - G
-    - A
-    - V
-    - Y
+    - K
+    - O
+    - N
   - Size: 10
     Row:
     - F
+    - K
     - L
-    - Q
-    - R
-    - W
-    - Q
-    - D
-    - L
+    - U
+    - B
+    - Y
+    - O
     - V
-    - H
+    - P
+    - Z
   - Size: 10
     Row:
-    - S
-    - O
+    - C
     - G
-    - K
-    - D
+    - B
+    - M
     - I
     - N
-    - Y
-    - A
-    - H
-  - Size: 10
-    Row:
-    - C
-    - Z
-    - U
-    - W
-    - W
-    - C
-    - R
-    - L
-    - D
-    - F
-  - Size: 10
-    Row:
     - T
-    - C
-    - M
-    - Z
     - T
+    - I
     - J
-    - Q
-    - L
-    - N
-    - M
   - Size: 10
     Row:
-    - P
-    - P
-    - F
-    - X
-    - K
-    - O
-    - X
-    - X
+    - H
+    - A
+    - G
     - M
+    - U
+    - Q
+    - Z
+    - I
+    - F
+    - E
+  - Size: 10
+    Row:
+    - D
+    - I
+    - F
+    - Y
+    - Z
+    - C
+    - K
+    - R
+    - N
+    - E
+  - Size: 10
+    Row:
+    - W
+    - O
+    - L
+    - F
+    - T
+    - L
+    - P
+    - K
+    - U
     - U
   SearchWords:
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
-  - Word: SUMIT
+  - Word: SPRING
+  - Word: WOLF
+  - Word: SNAKE
+  - Word: UNITY
+  - Word: CSHARP
+  - Word: BLACK
+  - Word: VIRTUS
+  - Word: SLAVIA
