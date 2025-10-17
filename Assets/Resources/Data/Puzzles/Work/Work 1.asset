@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfd53438dff2a242a4c10bbf4bd889a, type: 3}
+  m_Name: Work 1
+  m_EditorClassIdentifier: 
+  timeinseconds: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - A
+    - P
+    - E
+    - Q
+    - X
+    - P
+    - I
+    - L
+    - O
+    - T
+  - Size: 10
+    Row:
+    - T
+    - R
+    - L
+    - N
+    - U
+    - O
+    - X
+    - C
+    - K
+    - N
+  - Size: 10
+    Row:
+    - Q
+    - O
+    - V
+    - R
+    - G
+    - L
+    - Z
+    - W
+    - W
+    - A
+  - Size: 10
+    Row:
+    - D
+    - F
+    - J
+    - E
+    - I
+    - I
+    - S
+    - S
+    - O
+    - T
+  - Size: 10
+    Row:
+    - V
+    - E
+    - A
+    - E
+    - X
+    - C
+    - N
+    - C
+    - X
+    - N
+  - Size: 10
+    Row:
+    - A
+    - S
+    - C
+    - N
+    - V
+    - E
+    - S
+    - Q
+    - A
+    - U
+  - Size: 10
+    Row:
+    - S
+    - S
+    - Y
+    - I
+    - V
+    - M
+    - U
+    - R
+    - N
+    - O
+  - Size: 10
+    Row:
+    - Z
+    - O
+    - E
+    - G
+    - D
+    - A
+    - Y
+    - V
+    - S
+    - C
+  - Size: 10
+    Row:
+    - O
+    - R
+    - Y
+    - N
+    - C
+    - N
+    - E
+    - C
+    - C
+    - C
+  - Size: 10
+    Row:
+    - F
+    - T
+    - C
+    - E
+    - T
+    - I
+    - H
+    - C
+    - R
+    - A
+  SearchWords:
+  - Word: ACCOUNTANT
+  - Word: PROFESSOR
+  - Word: ARCHITECT
+  - Word: ENGINEER
+  - Word: POLICEMAN
+  - Word: PILOT

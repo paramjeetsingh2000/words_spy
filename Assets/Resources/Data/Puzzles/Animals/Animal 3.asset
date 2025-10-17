@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfd53438dff2a242a4c10bbf4bd889a, type: 3}
+  m_Name: Animal 3
+  m_EditorClassIdentifier: 
+  timeinseconds: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - W
+    - W
+    - G
+    - H
+    - A
+    - T
+    - E
+    - E
+    - H
+    - C
+  - Size: 10
+    Row:
+    - O
+    - Q
+    - M
+    - G
+    - D
+    - C
+    - B
+    - C
+    - Y
+    - E
+  - Size: 10
+    Row:
+    - L
+    - K
+    - K
+    - X
+    - R
+    - G
+    - E
+    - T
+    - D
+    - Z
+  - Size: 10
+    Row:
+    - F
+    - W
+    - Z
+    - S
+    - S
+    - N
+    - W
+    - B
+    - T
+    - X
+  - Size: 10
+    Row:
+    - O
+    - B
+    - G
+    - L
+    - N
+    - F
+    - E
+    - Q
+    - X
+    - V
+  - Size: 10
+    Row:
+    - R
+    - W
+    - X
+    - H
+    - O
+    - A
+    - V
+    - Y
+    - Q
+    - C
+  - Size: 10
+    Row:
+    - V
+    - A
+    - H
+    - S
+    - R
+    - S
+    - K
+    - Q
+    - E
+    - U
+  - Size: 10
+    Row:
+    - Q
+    - K
+    - K
+    - E
+    - U
+    - O
+    - V
+    - E
+    - S
+    - J
+  - Size: 10
+    Row:
+    - J
+    - A
+    - C
+    - K
+    - A
+    - L
+    - H
+    - E
+    - C
+    - X
+  - Size: 10
+    Row:
+    - Y
+    - Y
+    - J
+    - R
+    - S
+    - I
+    - O
+    - X
+    - U
+    - O
+  SearchWords:
+  - Word: WOLF
+  - Word: YAK
+  - Word: JACKAL
+  - Word: BEAR
+  - Word: CHEETAH
+  - Word: SNAKE

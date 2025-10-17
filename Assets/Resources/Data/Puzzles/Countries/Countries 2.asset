@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfd53438dff2a242a4c10bbf4bd889a, type: 3}
+  m_Name: Countries 2
+  m_EditorClassIdentifier: 
+  timeinseconds: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - G
+    - O
+    - U
+    - Z
+    - Z
+    - O
+    - G
+    - C
+    - N
+    - J
+  - Size: 10
+    Row:
+    - C
+    - R
+    - B
+    - K
+    - P
+    - O
+    - H
+    - A
+    - I
+    - A
+  - Size: 10
+    Row:
+    - M
+    - K
+    - E
+    - D
+    - U
+    - Z
+    - C
+    - A
+    - T
+    - A
+  - Size: 10
+    Row:
+    - F
+    - I
+    - R
+    - E
+    - E
+    - L
+    - R
+    - F
+    - A
+    - I
+  - Size: 10
+    Row:
+    - C
+    - K
+    - F
+    - L
+    - N
+    - E
+    - P
+    - A
+    - L
+    - I
+  - Size: 10
+    Row:
+    - A
+    - H
+    - X
+    - V
+    - U
+    - L
+    - E
+    - O
+    - Y
+    - P
+  - Size: 10
+    Row:
+    - N
+    - N
+    - G
+    - J
+    - J
+    - T
+    - A
+    - Z
+    - T
+    - W
+  - Size: 10
+    Row:
+    - A
+    - E
+    - C
+    - Y
+    - B
+    - N
+    - J
+    - N
+    - X
+    - V
+  - Size: 10
+    Row:
+    - D
+    - K
+    - I
+    - C
+    - E
+    - L
+    - A
+    - N
+    - D
+    - W
+  - Size: 10
+    Row:
+    - A
+    - W
+    - K
+    - A
+    - N
+    - A
+    - T
+    - U
+    - H
+    - B
+  SearchWords:
+  - Word: CANADA
+  - Word: ICELAND
+  - Word: ITALY
+  - Word: NEPAL
+  - Word: BHUTAN
+  - Word: GREENLAND

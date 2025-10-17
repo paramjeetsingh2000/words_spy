@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfd53438dff2a242a4c10bbf4bd889a, type: 3}
+  m_Name: Sport 3
+  m_EditorClassIdentifier: 
+  timeinseconds: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - Q
+    - N
+    - O
+    - P
+    - S
+    - Z
+    - B
+    - H
+    - Y
+    - S
+  - Size: 10
+    Row:
+    - U
+    - E
+    - M
+    - E
+    - W
+    - S
+    - T
+    - N
+    - H
+    - X
+  - Size: 10
+    Row:
+    - H
+    - T
+    - T
+    - W
+    - I
+    - X
+    - J
+    - O
+    - Z
+    - O
+  - Size: 10
+    Row:
+    - R
+    - A
+    - G
+    - Q
+    - M
+    - V
+    - O
+    - Z
+    - N
+    - M
+  - Size: 10
+    Row:
+    - K
+    - R
+    - Z
+    - N
+    - M
+    - T
+    - Q
+    - Q
+    - P
+    - K
+  - Size: 10
+    Row:
+    - A
+    - A
+    - I
+    - T
+    - I
+    - Q
+    - G
+    - O
+    - O
+    - S
+  - Size: 10
+    Row:
+    - W
+    - K
+    - O
+    - N
+    - N
+    - X
+    - S
+    - T
+    - P
+    - W
+  - Size: 10
+    Row:
+    - Q
+    - O
+    - G
+    - V
+    - G
+    - N
+    - O
+    - V
+    - N
+    - Y
+  - Size: 10
+    Row:
+    - A
+    - K
+    - J
+    - G
+    - R
+    - U
+    - G
+    - B
+    - Y
+    - I
+  - Size: 10
+    Row:
+    - I
+    - A
+    - O
+    - L
+    - O
+    - P
+    - X
+    - Y
+    - R
+    - E
+  SearchWords:
+  - Word: BOXING
+  - Word: SHOOTING
+  - Word: KARATE
+  - Word: SWIMMING
+  - Word: POLO
+  - Word: RUGBY
