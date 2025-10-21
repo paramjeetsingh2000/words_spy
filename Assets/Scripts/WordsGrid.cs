@@ -16,9 +16,9 @@ public class WordsGrid : MonoBehaviour
     void Start()
     {
         SpawnGridSquares();
-        GetSetSquaresPosition();
+        SetSquaresPosition();
     }
-    private void GetSetSquaresPosition()
+    private void SetSquaresPosition()
     {
         var squareRect = _squareList[0].GetComponent<SpriteRenderer>().sprite.rect;
         var squareTransform = _squareList[0].GetComponent<Transform>();
@@ -81,7 +81,7 @@ public class WordsGrid : MonoBehaviour
                     var selectedLetterData = alphabetData.AlphabetHighlighted.Find(data => data.letter == squareLetter);
                     var correctLetterData = alphabetData.AlphabetWrong.Find(data => data.letter == squareLetter);
 
-                    if(normalLetterData.image == null || selectedLetterData.image == null)
+                    if (normalLetterData.image == null || selectedLetterData.image == null)
                     {
                         Debug.LogError("All fields in your array should have some letters. Press fill up with random button in your board data to add random letter. Letter:" + squareLetter);
 

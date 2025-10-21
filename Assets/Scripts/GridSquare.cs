@@ -72,10 +72,12 @@ public int SquareIndex { get; set; }
     {
         _selected = false;
         _clicked =false;
+
         if (_correct == true)
             _displayedImage.sprite = _correctLetterData.image;
         else
             _displayedImage.sprite = _normalLetterData.image;
+       
     }
 
     private void SelectSquare(Vector3 position)
@@ -86,8 +88,8 @@ public int SquareIndex { get; set; }
 
     public void SetSprite(AlphabetData.LetterData normalLetterData, AlphabetData.LetterData selectedLetterData, AlphabetData.LetterData correctLetterData)
     {
-        _selectedLetterData = selectedLetterData;
         _normalLetterData = normalLetterData;
+        _selectedLetterData = selectedLetterData;
         _correctLetterData = correctLetterData;
 
         GetComponent<SpriteRenderer>().sprite = _normalLetterData.image;

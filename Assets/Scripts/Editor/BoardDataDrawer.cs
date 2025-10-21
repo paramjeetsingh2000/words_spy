@@ -31,7 +31,7 @@ public class BoardDataDrawer : Editor
 
         GUILayout.BeginHorizontal();
         ClearBoardButton();
-        FillUpWithRandomLetterButton();
+        FillUpWithRandomLettersButton();
 
         GUILayout.EndHorizontal();
 
@@ -172,7 +172,7 @@ public class BoardDataDrawer : Editor
 
         }
     }
-    private void FillUpWithRandomLetterButton()
+    private void FillUpWithRandomLettersButton()
     {
         if (GUILayout.Button(" Fill Up With Random"))
         {
