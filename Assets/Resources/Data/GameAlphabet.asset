@@ -174,7 +174,7 @@ MonoBehaviour:
   AlphabetWrong:
   - letter: A
     image: {fileID: 21300000, guid: 1c57c06e9a79c534d827421b1b6283f5, type: 3}
-  - letter: 'B '
+  - letter: B
     image: {fileID: 21300000, guid: 28c3b6fb3e37e91448c8abc83f4a401e, type: 3}
   - letter: C
     image: {fileID: 21300000, guid: e515b36e795c8404c91fde6ece9f4c82, type: 3}
