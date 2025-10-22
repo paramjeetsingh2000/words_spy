@@ -11,7 +11,6 @@ public class GameOverPopup : MonoBehaviour
 
     void Start()
     {
-        continueGameAfterAdsButton.GetComponent<Button>().interactable = false;
         gameOverPopup.SetActive(false);
 
         GameEvents.OnGameOver += ShowGameOverPopup;

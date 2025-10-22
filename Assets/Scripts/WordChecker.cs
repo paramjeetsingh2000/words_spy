@@ -213,7 +213,7 @@ public class WordChecker : MonoBehaviour
             if (currentBoardIndex >= currentLevelSize)
             {
                 currentCategoryIndex++;
-                if (currentCategoryIndex < gameLevelData.data.Count)
+                if (currentCategoryIndex < gameLevelData.data.Count) //if this is not the last category
                 {
                     categoryName = gameLevelData.data[currentCategoryIndex].categoryName;
                     currentBoardIndex = 0;
@@ -236,7 +236,9 @@ public class WordChecker : MonoBehaviour
             }
 
             if (loadNextCategory)
+            
                 GameEvents.UnlockNextCategoryMethod();
+            
         }
     }
 }
