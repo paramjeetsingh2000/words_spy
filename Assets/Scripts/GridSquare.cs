@@ -17,6 +17,7 @@ public int SquareIndex { get; set; }
     private int _index = -1;
     private bool _correct;
 
+    private AudioSource _source;
     public void SetIndex(int index)
     {
         _index = index;
@@ -31,6 +32,7 @@ public int SquareIndex { get; set; }
         _clicked = false;
         _correct = false;
         _displayedImage = GetComponent<SpriteRenderer>();
+        _source = GetComponent<AudioSource>();
     }
 
     private void OnEnable()
@@ -119,6 +121,9 @@ public int SquareIndex { get; set; }
     {
         if (_selected == false && _clicked == true)
         {
+            if (SoundManager.instance.IsSoundFXMuted() == false)
+                _source.Play();
+
             _selected = true;
             GameEvents.CheckSquareMethod(_normalLetterData.letter, gameObject.transform.position, _index);
         }

@@ -125,4 +125,17 @@ public static class GameEvents
 
     //******************************************************
 
+
+    public delegate void ToggleSoundFX();
+    public static event ToggleSoundFX OnToggleSoundFX;
+    public static void OnToggleSoundFXMethod()
+    {
+        if (OnToggleSoundFX != null)
+            OnToggleSoundFX();
+    }
+
+
+    //******************************************************
+
+
 }
