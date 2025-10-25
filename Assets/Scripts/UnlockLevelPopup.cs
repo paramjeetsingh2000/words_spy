@@ -1,5 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,7 +15,7 @@ public class UnlockLevelPopup : MonoBehaviour
     public GameData currentGameData;
     public List<CategoryName> categoryNames;
     public GameObject winPopup;
-    public Image categoryNameImage;
+    public TMP_Text categoryName;
 
     void Start()
     {
@@ -37,7 +37,7 @@ public class UnlockLevelPopup : MonoBehaviour
         {
             if (captureNext)
             {
-                categoryNameImage.sprite = writing.sprite;
+                categoryName.text = writing.name;
                 captureNext = false;
                 break;
             }

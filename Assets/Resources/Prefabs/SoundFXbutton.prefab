@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: be160e9cedc06f6488b0af1724301de7, type: 3}
+  m_Sprite: {fileID: 6009303011377718590, guid: 9cfba0c5f2e0a1348a792f8a72c9e429, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -122,6 +122,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameUtility, Assembly-CSharp
+        m_MethodName: MuteToggleSoundFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 969717101971802151}
         m_TargetAssemblyTypeName: SoundToggleButton, Assembly-CSharp
         m_MethodName: ToggleButton
@@ -147,10 +159,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  onSprite: {fileID: 21300000, guid: be160e9cedc06f6488b0af1724301de7, type: 3}
-  offSprite: {fileID: 21300000, guid: 504cfa052730b0e45bab8ab0f52653b6, type: 3}
+  onSprite: {fileID: 6009303011377718590, guid: 9cfba0c5f2e0a1348a792f8a72c9e429, type: 3}
+  offSprite: {fileID: -8496203487261792171, guid: 57bb1f0c009ff8a41a3bb184e99fd58d, type: 3}
   button: {fileID: 3172179758809114306}
-  offButtonPosition: {x: -45, y: 0, z: 0}
+  offButtonPosition: {x: -115, y: 0, z: 0}
 --- !u!1 &3172179758809114306
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,10 +195,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1161770376240470182}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45, y: 0}
-  m_SizeDelta: {x: 139, y: 139}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -5, y: 0}
+  m_SizeDelta: {x: -30, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1641437171132222469
 CanvasRenderer:
@@ -216,9 +228,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2095c37ab493f3046b740e1a2c23c882, type: 3}
+  m_Sprite: {fileID: 8837445301905419745, guid: e66426b52acd2a948999e48ec901d97b, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
